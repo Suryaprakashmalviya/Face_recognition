@@ -216,6 +216,7 @@ def add():
     cap.release()
     cv2.destroyAllWindows()
     print('Training Model')
+    #Final Test
     train_model()
     names, rolls, times, l = extract_attendance()
     return render_template('home.html', names=names, rolls=rolls, times=times, l=l, totalreg=totalreg(), datetoday2=datetoday2)
