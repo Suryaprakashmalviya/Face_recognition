@@ -1,7 +1,0 @@
-Flask
-opencv-python
-numpy
-scikit-learn
-pandas
-joblib
-Gunicorn
